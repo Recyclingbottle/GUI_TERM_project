@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\매그너스.png" />
+    <None Remove="images\아야.png" />
+    <None Remove="images\재키.png" />
+    <None Remove="images\현우.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\매그너스.png" />
+    <Resource Include="images\아야.png" />
+    <Resource Include="images\재키.png" />
+    <Resource Include="images\현우.png" />
+  </ItemGroup>
+
+</Project>
